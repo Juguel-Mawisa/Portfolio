@@ -36,3 +36,53 @@ li:not(:last-child)::after{
     color: gray;
     padding-left: 10px;
 }
+
+main{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.photo-profil{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.div-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 280px;
+}
+
+h4{
+    margin-bottom: -15px;
+}
+.div-text button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+}
+.div-text div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-cv{
+    background-color: #EEA302;
+}
+
+.btn-projets{
+    background-color: #E13B25;
+}
+.btn-contact{
+    background-color: #80D8DA;
+}
+
+.div-text p{
+    font-size: 20px;
+    font-weight: 400;
+}
