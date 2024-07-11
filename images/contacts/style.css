@@ -1,6 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: Inter;
-    padding: 2% 7%;
+    padding: 2% 5%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -55,6 +60,12 @@ form label{
     flex-direction: column;
     gap: 5px;
 }
+.jug{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
 .btn-Envoyer{
     background-color: #EEA302;
     border-radius: 50%;
@@ -62,4 +73,30 @@ form label{
     width: 70px;
     height: 70px;
     margin-top: 15px;
+}
+footer{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+span{
+    color: gray;
+    font-size: 10px;
+}
+.fab{
+    color: black;
+    font-size: 15px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -4px;
 }
