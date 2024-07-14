@@ -47,7 +47,7 @@ ul a{
 
 }
 .photo-projet1{
-    width: 520px;
+    width: 500px;
     height: 400px;
 }
 .div-text{
@@ -63,7 +63,7 @@ ul a{
     margin-bottom: 20px;
 }
 .photo-projet2{
-    width: 520px;
+    width: 500px;
     height: 400px;
     
 }
@@ -79,8 +79,8 @@ ul a{
     justify-content: space-between;
 }
 .photo-projet3{
-    width: 520px;
-    height: 400px;
+    width: 500px;
+    height: 370px;
     
 }
 .Inter-text{
@@ -92,4 +92,31 @@ ul a{
 }
 body img{
     margin-bottom: 50px;
+}
+footer{
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+span{
+    color: gray;
+    font-size: 10px;
+}
+.fab{
+    color: black;
+    font-size: 15px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -0,5%;
 }
