@@ -1,12 +1,11 @@
 *{
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-
 body{
     font-family: Inter;
-    padding: 2% 7%;
+    padding: 2% 5%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -29,69 +28,52 @@ ul{
     display: flex;
     gap: 10px;
 }
-
 ul a{
     color: gray;
     text-decoration: none;
 }
 
-li:not(:last-child)::after{
+.nav-ul li:not(:last-child)::after{
     content: '|';
     color: gray;
     padding-left: 10px;
 }
-
 main{
-    display: flex;
-    gap: 70px;
-    align-items: center;
-    justify-content: center;
-}
-.photo-profil{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    object-fit: cover;
-    
-}
-.div-text{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 400px;
-}
-
-h4{
-    margin-bottom: -15px;
-}
-.div-text button{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    border: none;
-}
-.div-text div{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 95%;
+    padding: 0 20%;
 }
-.btn-cv{
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form div{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+form label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.jug{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.btn-Envoyer{
     background-color: #EEA302;
+    border-radius: 50%;
+    border: none;
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
 }
-
-.btn-projets{
-    background-color: #E13B25;
-}
-.btn-contact{
-    background-color: #80D8DA;
-}
-
-.div-text p{
-    font-size: 20px;
-    font-weight: 400;
-}
-
 footer{
     padding: 0 5%;
     display: flex;
@@ -102,7 +84,7 @@ footer div{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    
+
 }
 
 span{

@@ -1,6 +1,6 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 body{
@@ -10,11 +10,13 @@ body{
     justify-content: space-between;
     flex-direction: column;
     height: 100vh;
+
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 h2{
@@ -38,65 +40,56 @@ ul a{
     color: gray;
     padding-left: 10px;
 }
-main{
+.content-image{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 0 20%;
-}
+    
 
-form{
+}
+.photo-projet1{
+    width: 520px;
+    height: 400px;
+}
+.div-text{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-}
-form div{
-    display: flex;
     gap: 20px;
-    align-items: center;
+    width: 800px;
+    height: 306px;
 }
-form label{
+.content-Hostim{
     display: flex;
-    flex-direction: column;
-    gap: 5px;
-}
-.jug{
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 20px;
+}
+.photo-projet2{
+    width: 520px;
+    height: 400px;
+    
+}
+.host-text{
+    display: flex;
+    flex-direction: column;
     gap: 20px;
+    width: 800px;
+    height: 306px;
 }
-.btn-Envoyer{
-    background-color: #EEA302;
-    border-radius: 50%;
-    border: none;
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-}
-footer{
-    padding: 0 5%;
+.content-Interio{
     display: flex;
     justify-content: space-between;
 }
-footer div{
+.photo-projet3{
+    width: 520px;
+    height: 400px;
+    
+}
+.Inter-text{
     display: flex;
     flex-direction: column;
-    gap: 10px;
-
+    gap: 20px;
+    width: 800px;
+    height: 306px;
 }
-
-span{
-    color: gray;
-    font-size: 10px;
-}
-.fab{
-    color: black;
-    font-size: 15px;
-}
-.icons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: -4px;
+body img{
+    margin-bottom: 50px;
 }
